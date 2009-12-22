@@ -22,5 +22,5 @@ huffman: huffman_decoder.vhd
 	ghdl -a -Wa,--32 huffman_decoder.vhd
 	ghdl -a -Wa,--32 jpeg_tb.vhd
 
-jpeg_tb: jpeg_tb.vhd j_main.vhd helpers.vhd
+jpeg_tb: jpeg_tb.vhd huffman_decoder.vhd
 	ghdl -a -Wa,--32 jpeg_tb.vhd

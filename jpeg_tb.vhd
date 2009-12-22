@@ -4,7 +4,7 @@ LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
 --USE ieee.std_logic_unsigned.all;
 USE ieee.numeric_std.ALL;
- use work.jpeg_pack.all;
+-- use work.jpeg_pack.all;
  
 ENTITY jpeg_tb IS
 END jpeg_tb;
